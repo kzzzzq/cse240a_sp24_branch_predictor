@@ -1,0 +1,3 @@
+[submodule "branchExtractor"]
+	path = branchExtractor
+	url = https://github.com/anoushkasaraswat/branchExtractor.git
