@@ -5,7 +5,7 @@
 This project is based on the 2004 Championship Branch Predictor contest. Each contestant will write a branch predictor that will consume a trace of branches (generated from real execution). Branch predictors are vital in modern processors as they enable efficient instruction execution by anticipating the outcome of conditional branches, reducing processing delays and improving overall CPU performance. In this assignment, we aren't giving you a full fledged processor simulator, but a rather simple model of a branch predictor. This model will have a few functions which you will have to add to, and design 2 new predictors in code. As a skeleton framework, we have provided you with an existing implementation of the GShare Predictor (correlating predictor). 
 
 ## The Task
-For this task, you will build 2 predictors based on the skeleton code. The first will be a Tournament branch predictor based on the Alpha 21264 processor. The other will be a custom implementation of your own choice which needs to outperform both the GShare and the Tournament predictors. This will also be a competition between the class itself, to get the maximum possible performance from your processor. The hardware budget you are given is 128Kbits + 512 bits (for registers and such), so please make sure that your data structures fit within this budget. 
+For this task, you will build 2 predictors based on the skeleton code. The first will be a Tournament branch predictor based on the Alpha 21264 processor. The other will be a custom implementation of your own choice which needs to outperform both the GShare and the Tournament predictors. The hardware budget you are given is 128Kbits + 512 bits (for registers and such), so please make sure that your data structures fit within this budget. 
 
 Here are some papers that you can refer to for the custom design:
 
@@ -58,6 +58,6 @@ You need to edit predictor.c and potentially predictor.h for the most part. Add 
 
 ## Deliverables
 
-Your github repo contains your implementation and you need to submit it on gradescope. Please try to use the main branch of the git repository for your final submission. We will provide an autograder that gives the performance of your predictor and a leader board shows your ranking.
+Your github repo contains your implementation and you need to submit it on gradescope. Please try to use the main branch of the git repository for your final submission.
 
 Along with this, you will also submit a PDF, which will include a brief description of your choice of custom predictor and its implementation. You should also include a table which shows the performance of the tournament predictor as well as your custom predictor for all the given traces. You should also include a table which shows your total hardware budget usage.
