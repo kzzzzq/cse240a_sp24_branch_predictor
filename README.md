@@ -54,7 +54,7 @@ This will back up all the content in ./src into ./src_backup, and reset the whol
 
 ## What should you edit?
 
-You need to edit predictor.c and potentially predictor.h for the most part. Add your functions and make sure they are referenced correctly so that your code runs perfectly. Please do not edit any file other than predictor.c and predictor.h.
+You need to edit predictor.cpp and potentially predictor.h for the most part. Add your functions and make sure they are referenced correctly so that your code runs perfectly. Please do not edit any file other than predictor.cpp and predictor.h.
 
 ## Deliverables
 
