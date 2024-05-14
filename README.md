@@ -25,7 +25,7 @@ This assignment is to be done individually by every student. Please make sure yo
 
 Accept the assignment in Github Classroom
 
-https://classroom.github.com/a/zPxlqyq2
+https://classroom.github.com/a/G6L3pryl
 
 Once you have checked out your repository, start adding your code into this. To compile, run the following command from within the `src` directory: `make all` or `make`. This will compile your code and generate output files. You will also get a executable binary called `predictor`. To run this, you need to give the following command:
 
